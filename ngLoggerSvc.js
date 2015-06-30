@@ -17,7 +17,7 @@
       //nextMessage = null;
 
   //register this service
-  angular.module('candidates').factory('ngLogger', ['$localStorage', ngLoggerWrapper]);
+  angular.module('YOUR_MODULE_NAME').factory('ngLogger', ['$localStorage', ngLoggerWrapper]);
 
   /**
     * The ngLogger service is the value of this executed function.
